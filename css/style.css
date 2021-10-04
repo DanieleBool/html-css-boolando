@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
  /* container principali */
 
@@ -15,7 +16,7 @@
 .box{
     width: calc(100% / 3 - 10px);
     float: left;
-    margin: 5px;
+    margin: 20px 5px;
 }
 
 .clearfix::after{
@@ -49,6 +50,52 @@
     height: 600px;
     background-position: center ;
     background-size: cover;
+    position: relative;
+}
+
+/* writing immagini */
+
+.love{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.perc{
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    background-color: rgb(235,0,55);
+    color: white;
+    width: 35px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 20px;    
+    vertical-align: middle;
+}
+
+.sostenib{
+    position: absolute;
+    bottom: 15px;
+    left: 38px;
+    background-color: rgb(0,135,90);
+    color: white;
+    width: 75px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 20px;    
+    vertical-align: middle;
 }
 
 /* hover */
@@ -87,4 +134,5 @@
 .container.debug{
     background-color: yellow;
     height: 500px;
-}*/
+}
+*/
