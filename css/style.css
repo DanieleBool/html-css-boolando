@@ -1,8 +1,11 @@
+/* commons */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+ /* container principali */
 
 .container{
     width: 85%;
@@ -21,7 +24,60 @@
     clear: both;
 }
 
-/* debug */
+/* immagini */
+
+.img1{
+    background-image: url('../img/1.webp');
+}
+.img2{
+    background-image: url('../img/2.webp');
+}
+.img3{
+    background-image: url('../img/3.webp');
+}
+.img4{
+    background-image: url('../img/4.webp');
+}
+.img5{
+    background-image: url('../img/5.webp');
+}
+.img6{
+    background-image: url('../img/6.webp');
+}
+.imm{
+    width: 100%;
+    height: 600px;
+    background-position: center ;
+    background-size: cover;
+}
+
+/* hover */
+
+.img1:hover{
+    background-image: url('../img/1b.webp');
+}
+
+.img2:hover{
+    background-image: url('../img/2b.webp');
+}
+
+.img3:hover{
+    background-image: url('../img/3b.webp');
+}
+
+.img4:hover{
+    background-image: url('../img/4b.webp');
+}
+
+.img5:hover{
+    background-image: url('../img/5b.webp');
+}
+
+.img6:hover{
+    background-image: url('../img/6b.webp');
+}
+
+/* debug 
 
 .debug .box{
     background-color: blue;
@@ -31,4 +87,4 @@
 .container.debug{
     background-color: yellow;
     height: 500px;
-}
+}*/
